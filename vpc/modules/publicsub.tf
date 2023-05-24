@@ -6,7 +6,7 @@ resource "aws_subnet" "public_subnet_az1" {
   map_public_ip_on_launch =  true
 
   tags      = {
-    Name    =  "public subnet az1"
+    Name    =  var.public_subnet_az1
   }
 }
 
@@ -18,6 +18,6 @@ resource "aws_subnet" "public_subnet_az2" {
   map_public_ip_on_launch =  true
 
   tags      = {
-    Name    = "public subnet az2"
+    Name    = var.public_subnet_az2
   }
 }
