@@ -15,7 +15,8 @@ iam_policies = [
   ]
 }
 EOF
-  },
+  }
+/*
   {
     name        = "my-policy-2"
     description = "My IAM Policy 2"
@@ -32,6 +33,7 @@ EOF
 }
 EOF
   }
+*/
 ]
 
 
