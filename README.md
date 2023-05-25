@@ -1,3 +1,23 @@
+# Terraform Network ACL (NACL) Example
+
+This Terraform configuration demonstrates how to create, update, and delete a Network ACL (NACL) using local modules.
+
+## Prerequisites
+
+- [Terraform](https://www.terraform.io/downloads.html) installed on your local machine
+- AWS credentials properly configured
+
+## Usage
+
+1. Clone this repository to your local machine:
+
+   ```shell
+   git clone <repository_url>
+
+
+
+
+
 # EC2 Instance Module
 
 This Terraform module creates an EC2 instance in AWS and attaches an IAM role policy to it.
