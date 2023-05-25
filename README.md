@@ -1,6 +1,6 @@
-# Terraform Network ACL (NACL) Example
+# Terraform clone
 
-This Terraform configuration demonstrates how to create, update, and delete a Network ACL (NACL) using local modules.
+This Terraform configuration demonstrates how to create, update, and delete local modules.
 
 ## Prerequisites
 
