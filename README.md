@@ -53,16 +53,3 @@ Run terraform apply to create the EC2 instance and attach the IAM role policy.
 
 To destroy the created resources, run terraform destroy.
 
-Inputs
-Name	Description	Type	Default	Required
-region	The AWS region where the resources will be created	string	-	yes
-role_name	The name of the IAM role to be created	string	-	yes
-role_assume_policy	The assume role policy for the IAM role	string	-	yes
-policy_arn	The ARN of the IAM policy to attach to the IAM role	string	-	yes
-ami	The ID of the AMI to use for the EC2 instance	string	-	yes
-instance_type	The type of the EC2 instance	string	-	yes
-key_name	The name of the key pair to use for SSH access	string	-	yes
-instance_tags	Additional tags for the EC2 instance (key-value pairs)	map	{}	no
-Outputs
-Name	Description
-instance_id	The ID of the created EC2 instance
